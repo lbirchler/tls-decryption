@@ -1,4 +1,4 @@
-# tls-decrypt
+# tls-decryption
 Decrypt TLS traffic from a pcap file
 
 ## Requirements

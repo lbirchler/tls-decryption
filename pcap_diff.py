@@ -56,7 +56,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(prog='pcap_diff.py', formatter_class=argparse.RawDescriptionHelpFormatter)
     required = parser.add_argument_group("required arguments")
     parser.add_argument("-p", "--print_diff", action="store_true",
-                        help="display packets that were changed from original and decrypted pcap files")
+                        help="display original/decrypted packets")
     required.add_argument("-o", "--original", type=str,
                         metavar="", help="original pcap file")
     required.add_argument("-d", "--decrypted", type=str,
