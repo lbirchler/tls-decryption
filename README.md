@@ -45,7 +45,7 @@ usage: pcap_diff.py [-h] [-p] [-o] [-d]
 
 optional arguments:
   -h, --help         show this help message and exit
-  -p, --print_diff   print altered/changed packets from original and decrypted pcap files
+  -p, --print_diff   display original/decrypted packets 
 
 required arguments:
   -o , --original    original pcap file
